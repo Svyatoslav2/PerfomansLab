@@ -1,4 +1,6 @@
-n, m = map(int,input().split())
+import sys
+n = int(sys.argv[1])
+m = int(sys.argv[2])
 test=[]
 arr = list(range(1, n + 1))
 result="1"
@@ -10,4 +12,3 @@ while True:
     result += str(arr[end])       
     current = end     
 print(result)
-
